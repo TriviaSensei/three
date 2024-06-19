@@ -1,0 +1,21 @@
+:root {
+	--black: #111111;
+	--white: #dddddd;
+}
+
+html,
+body {
+	background-color: var(--black);
+	color: var(--white);
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.container-all {
+	margin: auto;
+	display: flex;
+	height: 100%;
+	width: min(600px, 100%);
+	overflow-y: auto;
+}
